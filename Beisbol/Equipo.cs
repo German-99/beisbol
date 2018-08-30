@@ -12,6 +12,7 @@ namespace Beisbol
         public string Ciudad { get; set; }
         public string Entrenador { get; set; }
         public List<Jugador> jugadores { get; set; }
+        public Estadio estadio { get; set; }
 
         public Equipo()
             {
